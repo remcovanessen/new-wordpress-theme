@@ -134,3 +134,11 @@ footer p{
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+p.tags{
+	float:right;
+}
+
+nav.blog-nav {
+    padding: 35px;
+}

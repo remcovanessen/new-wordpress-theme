@@ -1,18 +1,19 @@
-<?php get_header(); ?>
+
+<?php
+
+/* This is the font page which will kick in automatically. */
 
 
+ get_header(); ?>
 
-
-      <div class="blog-header">
-        <a href="<?php echo get_bloginfo( 'wpurl' );?>"><h1 class="blog-title"><?php echo get_bloginfo( 'name' ); ?></h1></a>
-        <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-8 blog-main">
-
-  <?php 
+  <div class="main">
+          <div class="skewed-bg">
+  <div class="content">
+    <h1 class="title"><?php echo get_bloginfo( 'name' );?></h1> 
+      <h2 class="text"><?php echo get_bloginfo( 'description' ); ?></h2>
+    </div>
+    </div>
+<?php 
       if ( have_posts() ) : while ( have_posts() ) : the_post();
     
         get_template_part( 'content', get_post_format() );
@@ -28,15 +29,9 @@
 
 <?php endif; 
       ?>
-      <a href="<?php comments_link(); ?>">
-  <?php
-  printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ), number_format_i18n(             get_comments_number() ) ); ?>
-</a>
-     </div><!-- /.blog-main -->
 
 
 
-      </div><!-- /.row -->
-<?php get_sidebar(); ?>
-    </div><!-- /.container -->
+  </div> <!-- /.main -->
+
 <?php get_footer(); ?>
