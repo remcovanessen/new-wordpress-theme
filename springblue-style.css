@@ -142,3 +142,13 @@ p.tags{
 nav.blog-nav {
     padding: 35px;
 }
+
+p.next{
+    z-index: 2;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    margin-left: 150px;
+    transform: skew(0deg, 5deg);
+    -webkit-transform: skew(0deg, 5deg);
+}

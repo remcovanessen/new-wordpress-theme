@@ -1,3 +1,4 @@
-# Reset.css wordpress theme
+# Learning how to code wordpress themes
 
-No CSS - just the infrastructure for your pages and blogs - nothing else.
+Working on a wordpress theme for my blog. Nothing special, just a bit skewed.
+

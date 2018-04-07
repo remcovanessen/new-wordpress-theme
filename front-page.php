@@ -12,14 +12,14 @@
 			<h2 class="text"><?php echo get_bloginfo( 'description' ); ?></h2>
 		</div>
 		</div>
-<?php query_posts('showposts=5'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php query_posts('showposts=1'); if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 <?php get_template_part( 'content', get_post_format() ); ?>
 
 <?php endwhile;?>
 
-	<p><?php next_posts_link(); ?></p>
-	<p><?php previous_posts_link(); ?></p>
+	<p class="next"><?php next_posts_link(); ?></p>
+	<p class="next"><?php previous_posts_link(); ?></p>
 
 <?php else : ?>
 
