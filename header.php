@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
-    <meta name="author" content="">
+    <meta name="description" content="A blog by Remco van Essen, covering both code struggles and hopefully some fixes!">
+    <meta name="author" content="Remco van Essen">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 
 <?php wp_head(); ?>
   </head>

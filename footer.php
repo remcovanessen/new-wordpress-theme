@@ -1,7 +1,7 @@
     <footer class="blog-footer">
-      <p>Most basic template ever. Created so you could design from scratch. By <a href="https://remcovanessen.co.uk">Remco van Essen</a></p>
+      <p>Currently practicing my development skills, so don't mind the design. Want to find out more about me, just visit <a href="https://remcovanessen.co.uk" title="remco's portfolio site"> my portfolio site</a>.</p>
       <p>
-        <a href="#">Back to top</a>
+        <a id="backtotop" href="#">Back to top</a>
       </p>
     </footer>
 

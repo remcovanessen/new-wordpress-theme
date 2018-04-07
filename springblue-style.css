@@ -1,0 +1,136 @@
+/* skewed background inspired by Jose Pimienta https://codepen.io/pipozoft/pen/vBwjl */
+
+body{
+  background: white;
+  color: #fff;
+}
+
+.skewed-bg {
+  background: #2F2F2F;
+  padding: 200px 0;
+    -webkit-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+  margin-top: -200px;
+  margin-bottom: 50px;
+  font-family: 'Special Elite', cursive;
+}
+.skewed-bg .content {
+    -webkit-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+  text-align: center;
+}
+.skewed-bg .content .title {
+    padding-top: 100px;
+    font-weight: normal;
+    margin-bottom: -27px;
+    color: #FCFCFC;
+}
+.skewed-bg .content .text {
+  width: 60%;
+  margin: 25px auto;
+  color: gold;
+}
+
+.footer {
+  padding-top: 300px;
+  font-family: 'Special Elite', cursive;
+}
+.footer .credits {
+  text-align: center;
+  color: dodgerblue;
+}
+.footer .credits .link {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+h1.title {
+    font-size: 4em;
+}
+
+footer {
+    background: #2F2F2F;
+    padding: 100px 0;
+    -webkit-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+    margin-bottom: -270px;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+footer p {
+  -webkit-transform: skew(0deg, -5deg);
+  transform: skew(0deg, -5deg);
+  text-align: center;
+  color:white;
+
+}
+
+.blog-post-dev{
+	    max-width: 700px;
+    width: 80%;
+    display: block;
+    z-index: 1;
+    margin: auto;
+    color: #FCFCFC;
+    background: #2F2F2F;
+    position: relative;
+    min-height: 50px;
+    padding: 35px;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0px 0px 0px 2px silver;
+-moz-box-shadow: 0px 0px 0px 2px silver;
+box-shadow: 0px 0px 0px 2px silver;
+    -webkit-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+}
+.blog-post-dev h3, p, ol li{
+    -webkit-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+}
+
+h3 {
+    font-size: 2em;
+    margin: 10px;
+    font-family: 'Special Elite', cursive;
+}
+
+a {
+    color: gold;
+    z-index: 2;
+    position: relative;
+}
+
+.col-md-6 p {
+    margin: 10px;
+}
+.col-md-6 p:last-child {
+    margin-bottom: 60px;
+}
+
+.col-md-6 ol li {
+    margin: 20px;
+    list-style:lower-alpha;
+    }
+
+.col-md-6 ol {
+    margin: 40px;
+
+    }
+
+p.date{
+	margin-bottom: 50px;
+	color:#777;
+	font-family: 'Special Elite', cursive;
+}
+
+#backtotop{
+	margin-top: 20px;
+}
+
+footer p{
+	max-width:60%;
+	margin:auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
